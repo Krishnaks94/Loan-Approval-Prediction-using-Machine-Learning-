@@ -11,10 +11,10 @@ Loan approval is a critical process for financial institutions, and it involves 
 Load the dataset using Pandas and explore the initial structure using df.head() and df.info().
 Identify missing values and data types of each column.
 2. Data Preprocessing
-   1.Handling Missing Values: Impute missing values using mode, mean, or appropriate methods for categorical and numerical features.
-   2.Feature Engineering: Log transform the LoanAmount and TotalIncome columns to normalize their distributions.
-                          Create a new feature TotalIncome by summing ApplicantIncome and CoapplicantIncome.
-   3.Encoding Categorical Variables: Convert categorical variables into numerical values using LabelEncoder.
+1.Handling Missing Values: Impute missing values using mode, mean, or appropriate methods for categorical and numerical features.
+2.Feature Engineering: Log transform the LoanAmount and TotalIncome columns to normalize their distributions.
+Create a new feature TotalIncome by summing ApplicantIncome and CoapplicantIncome.
+3.Encoding Categorical Variables: Convert categorical variables into numerical values using LabelEncoder.
 3. Data Visualization:
 Use Seaborn to create count plots for categorical features such as Gender, Married, Dependents, Self_Employed, Credit_History, and Property_Area.
 Plot histograms of transformed features like LoanAmount_log and TotalIncome_log.
