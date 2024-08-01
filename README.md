@@ -10,7 +10,7 @@ Loan approval is a critical process for financial institutions, and it involves 
 1. Data Import and Exploration:
 Load the dataset using Pandas and explore the initial structure using df.head() and df.info().
 Identify missing values and data types of each column.
-2. Data Preprocessing
+2. Data Preprocessing:
    1.Handling Missing Values: Impute missing values using mode, mean, or appropriate methods for categorical and numerical features.
 
    2.Feature Engineering: Log transform the LoanAmount and TotalIncome columns to normalize their distributions.
