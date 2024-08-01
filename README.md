@@ -19,7 +19,7 @@ Identify missing values and data types of each column.
 Use Seaborn to create count plots for categorical features such as Gender, Married, Dependents, Self_Employed, Credit_History, and Property_Area.
 Plot histograms of transformed features like LoanAmount_log and TotalIncome_log.
 4. Model Training: Split the dataset into training and testing sets using train_test_split.
-                   Apply LabelEncoder to encode target labels and categorical features in the training data.
+Apply LabelEncoder to encode target labels and categorical features in the training data.
 5. Model Evaluation:
 Evaluate the model’s performance on the test set using appropriate metrics such as accuracy, precision, recall, and F1 score.
 Compare the results and choose the best-performing model.
