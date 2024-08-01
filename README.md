@@ -23,7 +23,7 @@ Plot histograms of transformed features like LoanAmount_log and TotalIncome_log.
 5. Model Training: Split the dataset into training and testing sets using train_test_split.
                    Apply LabelEncoder to encode target labels and categorical features in the training data.
 6. Model Evaluation:
-Evaluate the model’s performance on the test set using appropriate metrics such as accuracy, precision,etc
+Evaluate the model’s performance on the test set using appropriate metrics such as accuracy, precision and recall,etc
 Compare the results and choose the best-performing model.
 7. Conclusion:
 Summarize the results of the analysis and model performance.
